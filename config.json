@@ -14,19 +14,18 @@
     "commandDisabled": [],
     "eventDisabled": [],
     "UPTIME": 1,
-    "ACCESSTOKEN": "EAAD6V7os0gcBOzEoNXWJkErkisHLZAqLPM5XMF6afBPZA96xblUFPrKVEmjS0Tra6CG8A5I2ZAZAwjm5qZAxCjgZAPKyYsJzOPGNbXQ1MbafPr4JmYNHYdduSbxrpwZBkHHZAdqqJ4mdepU6bjvFVKb4xMucvrFzHbb1MaPJWyU609YyYtSHUozEF71XP9oZBZCgZDZD",
-    "BOTNAME": "『 Obito 』",
-    "AMDIN_NAME": "Phan Quốc Thái",
-    "FACEBOOK_ADMIN": "https://www.facebook.com/beqthaicutephomaique?mibextid=ZbWKwL",
-    "MESSENGER_ADMIN": "m.me/beqthaicutephomaique",
-    "ZALO_ADMIN": "0939001574",
+    "ACCESSTOKEN": "EAAGNO4a7r2wBO8Ho90R7HmFYng5d7TrAsxMwxV6jfBNQmEZBJ7AELeI9l8jUHN6IDgIRsALAa7n5UDDDLAc9arkcZAzogr5ZAzuH6WpN8dNo6fpFcgBMheD7srSHWhzWHS9638fvHKaWrRkBXfCjkYDSKrUgzIXOiHw9tTJwWCrcVWzybVWsJGJPAZDZD",
+    "BOTNAME": "『 Tuấn Ank 』",
+    "AMDIN_NAME": "Tuấn Ank",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/anhyeuemnhamlun",
+    "MESSENGER_ADMIN": "https://m.me/anhyeuemnhamlun",
+    "ZALO_ADMIN": "0784836694",
     "PREFIX": "/",
     "ADMINBOT": [
-        "100079058877870",
-        "61561406502265"
+        "61555625227297"
     ],
     "NDH": [
-        "100079058877870"
+        "61555625227297"
     ],
     "FCAOption": {
         "forceLogin": true,

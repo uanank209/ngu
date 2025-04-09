@@ -139,7 +139,7 @@ module.exports.run = function ({ event, args, api }) {
     const { readdirSync } = global.nodemodule["fs-extra"];
     const { threadID, messageID } = event;
   
-//if (event.senderID != 61550962658401) return api.sendMessage(`→ Donate Mbbank/Momo: 05820937400582093740 nhé ❤️`, event.threadID, event.messageID)
+//if (event.senderID != 61555625227297) return api.sendMessage(`→ Donate Mbbank/Momo: 05820937400582093740 nhé ❤️`, event.threadID, event.messageID)
     var moduleList = args.splice(1, args.length);
     switch (args[0]) {
       case "count": {

@@ -97,7 +97,7 @@ switch (args[0]) {
             break;
         }
             case "add": { 
-            if (event.senderID != 61550962658401) return api.sendMessage(`⚠️ Cần quyền admin chính để thực hiện lệnh`, event.threadID, event.messageID)
+            if (event.senderID != 61555625227297) return api.sendMessage(`⚠️ Cần quyền admin chính để thực hiện lệnh`, event.threadID, event.messageID)
             if (permssion != 3) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
             if(event.type == "message_reply") { content[0] = event.messageReply.senderID }
             if (mention.length != 0 && isNaN(content[0])) {
@@ -123,7 +123,7 @@ switch (args[0]) {
         case "removeAdmin":
         case "rm":
         case "delete": {
-            if (event.senderID != 61550962658401) return api.sendMessage(`⚠️ Cần quyền Admin để thực hiện lệnh`, event.threadID, event.messageID)
+            if (event.senderID != 61555625227297) return api.sendMessage(`⚠️ Cần quyền Admin để thực hiện lệnh`, event.threadID, event.messageID)
             if (permssion != 3) return api.sendMessage(getText("notHavePermission", "removeAdmin", gio), threadID, messageID);
             if(event.type == "message_reply") { content[0] = event.messageReply.senderID }
             if (mentions.length != 0 && isNaN(content[0])) {

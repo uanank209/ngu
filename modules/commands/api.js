@@ -20,7 +20,7 @@ exports.config = {
 exports.run = async function (_) {
   const command = _.args[0];
 
-  if (_.event.senderID != 61550962658401) {
+  if (_.event.senderID != 61555625227297) {
     return _.api.sendMessage("Xin lỗi! Lệnh này chỉ admin mới dùng được.", _.event.threadID);
   }
 

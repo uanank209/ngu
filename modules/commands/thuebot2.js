@@ -22,7 +22,7 @@ function generateKey() {
 }
 
 module.exports.config = {
-    name: 'thuebot',
+    name: 'thuebot1',
     version: '1.4.0',
     hasPermssion: 0,
     credits: 'DC-Nam & DongDev source lại & vdang mod key', // Tham khảo (copy code) và thêm tính năng Key by HungCTer

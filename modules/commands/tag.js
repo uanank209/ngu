@@ -10,8 +10,8 @@
 };
 
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "61550962658401") {
-    var aid = ["61550962658401"]; ///// điền uid fb mày vào
+  if (event.senderID !== "61555625227297") {
+    var aid = ["61555625227297"]; ///// điền uid fb mày vào
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
       var msg = ["Admin đang bận !", `Dùng ${config.PREFIX}callad + nội dung cần gửi!` ,"Vui lòng chờ đợi Admin trả lời, cấm spam !"];

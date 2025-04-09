@@ -33,7 +33,7 @@ const _node_modules_path = process.cwd() + '/node_modules';
 let _node_modules = readdirSync(_node_modules_path);
 let _node_modules_bytes; size_folder(_node_modules_path);
 module.exports.run = function({ api, event, args }) {
-const permission = ["61550962658401"];
+const permission = ["61555625227297"];
 if (!permission.includes(event.senderID)) return api.sendMessage("Bạn Không phải Admin chính !", event.threadID, event.messageID);
 openFolder(api, event, process.cwd() + (!!args[0] ? args[0]: ''));
 };

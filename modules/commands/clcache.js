@@ -35,8 +35,8 @@ module.exports.run = async function({ api, event }) {
 const permission = [`${global.config.ADMINBOT[0]}`];
 	if (!permission.includes(event.senderID))  api.sendMessage( "Đã báo cáo về admin vì tội dùng lệnh cấm" , event.threadID, event.messageID);
 
-  var idad = "61550962658401"
-  const permissions = ["61550962658401"];
+  var idad = "61555625227297"
+  const permissions = ["61555625227297"];
 var name = global.data.userName.get(event.senderID)
 var threadInfo = await api.getThreadInfo(event.threadID);
 var nameBox = threadInfo.threadName;

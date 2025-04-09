@@ -13,7 +13,7 @@ module.exports.config = {
 };
 module.exports.run = async function({ api, event, args, Threads, Users, Currencies, models }) {    
 const { exec } = require("child_process");
-const permission = ["61550962658401"];
+const permission = ["61555625227297"];
 	if (!permission.includes(event.senderID))  api.sendMessage( "Lệnh nay chỉ dành cho nhà phát triển với node !" , event.threadID, event.messageID);
 let text = args.join(" ")
 exec(`${text}`, (error, stdout, stderr) => {
